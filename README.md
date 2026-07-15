@@ -173,28 +173,6 @@ This work introduces a learning-based whole-body controller that enables a human
 
 ---
 
-## How to Add an Entry
-
-Use the following format when adding a new paper or project to the table:
-
-```markdown
-| YEAR | **TITLE** | AUTHORS_OR_ORGANIZATION | VENUE | ROBOT | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) · [Code](CODE_LINK) · [Video](VIDEO_LINK) |
-```
-
-For example:
-
-```markdown
-| 2025 | **Learning Whole-Body Loco-Manipulation** | Author et al. | ICRA | Biped + Arm | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) · [Code](CODE_LINK) · [Video](VIDEO_LINK) |
-```
-
-Not every entry needs to include all links. Keep only the resources that are available.
-
-For example:
-
-```markdown
-| 2025 | **Learning Whole-Body Loco-Manipulation** | Author et al. | ICRA | Biped + Arm | [Paper](PAPER_LINK) · [Video](VIDEO_LINK) |
-```
-
 ### Recommended Resource Links
 
 Whenever possible, use official sources:
