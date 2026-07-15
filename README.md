@@ -276,9 +276,3 @@ This repository is released under the [MIT License](LICENSE).
 External papers, code repositories, datasets, images, and project resources remain subject to their original licenses and copyright terms.
 
 ---
-
-## Star History
-
-If you find this repository useful, please consider giving it a star.
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Czy213hd/awesome-legged-loco-manipulation&type=Date)](https://star-history.com/#Czy213hd/awesome-legged-loco-manipulation&Date)
