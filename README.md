@@ -48,14 +48,38 @@ This repository focuses on learning-based methods for legged loco-manipulation, 
 
 Entries are sorted by publication year, with the newest work listed first.
 
-| Year | Title | Authors / Organization | Venue | Robot | Resources |
-|:---:|---|---|:---:|---|---|
-| 2026 | **Paper or Project Title** | Author et al. | ICRA | Humanoid | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) · [Code](CODE_LINK) · [Video](VIDEO_LINK) |
-| 2025 | **Paper or Project Title** | Author et al. | CoRL | Biped + Arm | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) · [Code](CODE_LINK) |
-| 2025 | **Paper or Project Title** | Author et al. | RSS | Quadruped + Arm | [Paper](PAPER_LINK) · [Video](VIDEO_LINK) |
-| 2024 | **Paper or Project Title** | Author et al. | ICRA | Humanoid | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) |
-| 2024 | **Paper or Project Title** | Author et al. | IROS | Quadruped + Arm | [Paper](PAPER_LINK) · [Code](CODE_LINK) |
-| 2023 | **Paper or Project Title** | Author et al. | CoRL | Legged Robot | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) |
+| Year | Title                                                                                                       | Authors / Organization     |       Venue       | Robot                                | Resources                                                                                                                                                                                                             |
+| :--: | ----------------------------------------------------------------------------------------------------------- | -------------------------- | :---------------: | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2025 | **WildLMa: Long-Horizon Loco-Manipulation in the Wild**                                                     | Ri-Zhao Qiu et al.         |        ICRA       | Unitree B1 + Z1 Arm                  | [Paper](https://arxiv.org/abs/2411.15131) · [Project](https://wildlma.github.io/) · [Video](https://youtu.be/pNBMiHYn5tg)                                                                                             |
+| 2025 | **QuadWBG: Generalizable Quadrupedal Whole-Body Grasping**                                                  | Jilong Wang et al.         |        ICRA       | Unitree B1 + Z1 Arm                  | [Paper](https://arxiv.org/abs/2411.06782) · [Project](https://quadwbg.github.io/) · [Video](https://www.youtube.com/playlist?list=PLHt_fpvZmCueMLXLwx16qaJgBXRNfMSMa)                                                 |
+| 2025 | **RoboDuet: Learning a Cooperative Policy for Whole-Body Legged Loco-Manipulation**                         | Guoping Pan et al.         |        RA-L       | Unitree Go1 / Go2 / A1 + ARX5        | [Paper](https://arxiv.org/abs/2403.17367) · [Project](https://locomanip-duet.github.io/) · [Code](https://github.com/locomanip-duet/RoboDuet)                                                                         |
+| 2024 | **UMI on Legs: Making Manipulation Policies Mobile with Manipulation-Centric Whole-Body Controllers**       | Huy Ha et al.              |        CoRL       | Unitree Go2 + ARX5                   | [Paper](https://arxiv.org/abs/2407.10353) · [Project](https://umi-on-legs.github.io/) · [Code](https://github.com/real-stanford/umi-on-legs) · [Video](https://youtu.be/4Bp0q3xHTxE)                                  |
+| 2024 | **Visual Whole-Body Control for Legged Loco-Manipulation**                                                  | Minghuan Liu et al.        |        CoRL       | Unitree B1 + Z1 Arm                  | [Paper](https://arxiv.org/abs/2403.16967) · [Project](https://wholebody-b1.github.io/) · [Code](https://github.com/Ericonaldo/visual_wholebody) · [Video](https://youtu.be/Kfj1ImFLoqI)                               |
+| 2024 | **LocoMan: Advancing Versatile Quadrupedal Dexterity with Lightweight Loco-Manipulators**                   | Changyi Lin et al.         |        IROS       | Unitree Go1 + Dual Loco-Manipulators | [Paper](https://arxiv.org/abs/2403.18197) · [Project](https://linchangyi1.github.io/LocoMan/) · [Code](https://github.com/linchangyi1/LocoMan) · [Video](https://www.youtube.com/watch?v=d-GLiRPiHIE)                 |
+| 2023 | **RoLoMa: Robust Loco-Manipulation for Quadruped Robots with Arms**                                         | Henrique Ferrolho et al.   | Autonomous Robots | ANYmal B + Kinova Arm                | [Paper](https://arxiv.org/abs/2203.01446) · [Project](https://ferrolho.github.io/publications/ferrolho2023roloma/) · [Video](https://youtu.be/3qXNHVCagL8)                                                            |
+| 2022 | **Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion**                      | Zipeng Fu et al.           |        CoRL       | Unitree Go1 + WidowX 250s            | [Paper](https://arxiv.org/abs/2210.10044) · [Project](https://manipulation-locomotion.github.io/) · [Code](https://github.com/MarkFzp/Deep-Whole-Body-Control) · [Video](https://www.youtube.com/watch?v=4-2j3L86ZL4) |
+| 2022 | **Combining Learning-Based Locomotion Policy with Model-Based Manipulation for Legged Mobile Manipulators** | Yuntao Ma et al.           |        RA-L       | ANYmal + DynaArm                     | [Paper](https://arxiv.org/abs/2201.03871) · [Video](https://youtu.be/OZ9Adh0PYbw)                                                                                                                                     |
+| 2021 | **A Unified MPC Framework for Whole-Body Dynamic Locomotion and Manipulation**                              | Jean-Pierre Sleiman et al. |    RA-L / ICRA    | ALMA Quadruped Manipulator           | [Paper](https://arxiv.org/abs/2103.00946) · [Video](https://www.youtube.com/watch?v=uT4ypNDzUvI)                                                                                                                      |
+
+---
+
+## How to Add an Entry
+
+Please add new entries in reverse chronological order, with the newest work listed first.
+
+Use the following format:
+
+```markdown
+| YEAR | **TITLE** | AUTHORS_OR_ORGANIZATION | VENUE | ROBOT | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) · [Code](CODE_LINK) · [Video](VIDEO_LINK) |
+```
+
+Only include resource links that are publicly available. Unavailable resources may be omitted.
+
+For example:
+
+```markdown
+| 2025 | **Example Paper Title** | Author A et al. | ICRA | Unitree Go2 + Robot Arm | [Paper](PAPER_LINK) · [Project](PROJECT_LINK) · [Code](CODE_LINK) |
+```
 
 ### Entry Description
 
